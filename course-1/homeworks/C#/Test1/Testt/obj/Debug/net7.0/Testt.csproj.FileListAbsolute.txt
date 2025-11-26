@@ -1,0 +1,15 @@
+/Users/vitaly/Projects/Testt/Testt/bin/Debug/net7.0/Testt
+/Users/vitaly/Projects/Testt/Testt/bin/Debug/net7.0/Testt.deps.json
+/Users/vitaly/Projects/Testt/Testt/bin/Debug/net7.0/Testt.runtimeconfig.json
+/Users/vitaly/Projects/Testt/Testt/bin/Debug/net7.0/Testt.dll
+/Users/vitaly/Projects/Testt/Testt/bin/Debug/net7.0/Testt.pdb
+/Users/vitaly/Projects/Testt/Testt/obj/Debug/net7.0/Testt.csproj.AssemblyReference.cache
+/Users/vitaly/Projects/Testt/Testt/obj/Debug/net7.0/Testt.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitaly/Projects/Testt/Testt/obj/Debug/net7.0/Testt.AssemblyInfoInputs.cache
+/Users/vitaly/Projects/Testt/Testt/obj/Debug/net7.0/Testt.AssemblyInfo.cs
+/Users/vitaly/Projects/Testt/Testt/obj/Debug/net7.0/Testt.csproj.CoreCompileInputs.cache
+/Users/vitaly/Projects/Testt/Testt/obj/Debug/net7.0/Testt.dll
+/Users/vitaly/Projects/Testt/Testt/obj/Debug/net7.0/refint/Testt.dll
+/Users/vitaly/Projects/Testt/Testt/obj/Debug/net7.0/Testt.pdb
+/Users/vitaly/Projects/Testt/Testt/obj/Debug/net7.0/Testt.genruntimeconfig.cache
+/Users/vitaly/Projects/Testt/Testt/obj/Debug/net7.0/ref/Testt.dll
