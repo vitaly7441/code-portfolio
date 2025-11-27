@@ -1,0 +1,15 @@
+/Users/vitaly/Projects/Homework2/Homework2/bin/Debug/net7.0/Homework2
+/Users/vitaly/Projects/Homework2/Homework2/bin/Debug/net7.0/Homework2.deps.json
+/Users/vitaly/Projects/Homework2/Homework2/bin/Debug/net7.0/Homework2.runtimeconfig.json
+/Users/vitaly/Projects/Homework2/Homework2/bin/Debug/net7.0/Homework2.dll
+/Users/vitaly/Projects/Homework2/Homework2/bin/Debug/net7.0/Homework2.pdb
+/Users/vitaly/Projects/Homework2/Homework2/obj/Debug/net7.0/Homework2.csproj.AssemblyReference.cache
+/Users/vitaly/Projects/Homework2/Homework2/obj/Debug/net7.0/Homework2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitaly/Projects/Homework2/Homework2/obj/Debug/net7.0/Homework2.AssemblyInfoInputs.cache
+/Users/vitaly/Projects/Homework2/Homework2/obj/Debug/net7.0/Homework2.AssemblyInfo.cs
+/Users/vitaly/Projects/Homework2/Homework2/obj/Debug/net7.0/Homework2.csproj.CoreCompileInputs.cache
+/Users/vitaly/Projects/Homework2/Homework2/obj/Debug/net7.0/Homework2.dll
+/Users/vitaly/Projects/Homework2/Homework2/obj/Debug/net7.0/refint/Homework2.dll
+/Users/vitaly/Projects/Homework2/Homework2/obj/Debug/net7.0/Homework2.pdb
+/Users/vitaly/Projects/Homework2/Homework2/obj/Debug/net7.0/Homework2.genruntimeconfig.cache
+/Users/vitaly/Projects/Homework2/Homework2/obj/Debug/net7.0/ref/Homework2.dll
