@@ -1,0 +1,15 @@
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/bin/Debug/net7.0/Practice 3
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/bin/Debug/net7.0/Practice 3.deps.json
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/bin/Debug/net7.0/Practice 3.runtimeconfig.json
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/bin/Debug/net7.0/Practice 3.dll
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/bin/Debug/net7.0/Practice 3.pdb
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/obj/Debug/net7.0/Practice 3.csproj.AssemblyReference.cache
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/obj/Debug/net7.0/Practice 3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/obj/Debug/net7.0/Practice 3.AssemblyInfoInputs.cache
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/obj/Debug/net7.0/Practice 3.AssemblyInfo.cs
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/obj/Debug/net7.0/Practice 3.csproj.CoreCompileInputs.cache
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/obj/Debug/net7.0/Practice 3.dll
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/obj/Debug/net7.0/refint/Practice 3.dll
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/obj/Debug/net7.0/Practice 3.pdb
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/obj/Debug/net7.0/Practice 3.genruntimeconfig.cache
+/Users/vitaly/Documents/VS Code/Practice 3/Practice 3/obj/Debug/net7.0/ref/Practice 3.dll
