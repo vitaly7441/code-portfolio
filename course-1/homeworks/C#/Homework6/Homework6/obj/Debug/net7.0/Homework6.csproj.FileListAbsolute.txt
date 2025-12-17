@@ -1,0 +1,15 @@
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/bin/Debug/net7.0/Homework6
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/bin/Debug/net7.0/Homework6.deps.json
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/bin/Debug/net7.0/Homework6.runtimeconfig.json
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/bin/Debug/net7.0/Homework6.dll
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/bin/Debug/net7.0/Homework6.pdb
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/obj/Debug/net7.0/Homework6.csproj.AssemblyReference.cache
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/obj/Debug/net7.0/Homework6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/obj/Debug/net7.0/Homework6.AssemblyInfoInputs.cache
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/obj/Debug/net7.0/Homework6.AssemblyInfo.cs
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/obj/Debug/net7.0/Homework6.csproj.CoreCompileInputs.cache
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/obj/Debug/net7.0/Homework6.dll
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/obj/Debug/net7.0/refint/Homework6.dll
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/obj/Debug/net7.0/Homework6.pdb
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/obj/Debug/net7.0/Homework6.genruntimeconfig.cache
+/Users/vitaly/Documents/VS Code/Homework6/Homework6/obj/Debug/net7.0/ref/Homework6.dll
