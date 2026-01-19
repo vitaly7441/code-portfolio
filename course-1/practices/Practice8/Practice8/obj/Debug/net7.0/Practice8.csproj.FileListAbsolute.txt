@@ -1,0 +1,15 @@
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/bin/Debug/net7.0/Practice8
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/bin/Debug/net7.0/Practice8.deps.json
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/bin/Debug/net7.0/Practice8.runtimeconfig.json
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/bin/Debug/net7.0/Practice8.dll
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/bin/Debug/net7.0/Practice8.pdb
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/obj/Debug/net7.0/Practice8.csproj.AssemblyReference.cache
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/obj/Debug/net7.0/Practice8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/obj/Debug/net7.0/Practice8.AssemblyInfoInputs.cache
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/obj/Debug/net7.0/Practice8.AssemblyInfo.cs
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/obj/Debug/net7.0/Practice8.csproj.CoreCompileInputs.cache
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/obj/Debug/net7.0/Practice8.dll
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/obj/Debug/net7.0/refint/Practice8.dll
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/obj/Debug/net7.0/Practice8.pdb
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/obj/Debug/net7.0/Practice8.genruntimeconfig.cache
+/Users/vitaly/Documents/VS Code/Practice8/Practice8/obj/Debug/net7.0/ref/Practice8.dll
