@@ -1,0 +1,15 @@
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/bin/Debug/net7.0/Homework7
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/bin/Debug/net7.0/Homework7.deps.json
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/bin/Debug/net7.0/Homework7.runtimeconfig.json
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/bin/Debug/net7.0/Homework7.dll
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/bin/Debug/net7.0/Homework7.pdb
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/obj/Debug/net7.0/Homework7.csproj.AssemblyReference.cache
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/obj/Debug/net7.0/Homework7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/obj/Debug/net7.0/Homework7.AssemblyInfoInputs.cache
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/obj/Debug/net7.0/Homework7.AssemblyInfo.cs
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/obj/Debug/net7.0/Homework7.csproj.CoreCompileInputs.cache
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/obj/Debug/net7.0/Homework7.dll
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/obj/Debug/net7.0/refint/Homework7.dll
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/obj/Debug/net7.0/Homework7.pdb
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/obj/Debug/net7.0/Homework7.genruntimeconfig.cache
+/Users/vitaly/Documents/VS Code/Homework7/Homework7/obj/Debug/net7.0/ref/Homework7.dll
