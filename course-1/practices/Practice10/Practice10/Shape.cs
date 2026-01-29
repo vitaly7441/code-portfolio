@@ -1,0 +1,10 @@
+﻿using System;
+namespace Practice10
+{
+	public abstract class Shape
+	{
+		public abstract double GetArea();
+        public abstract double GetPerimeter();
+    }
+}
+
