@@ -1,0 +1,15 @@
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/bin/Debug/net7.0/Project_Code_Cat
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/bin/Debug/net7.0/Project_Code_Cat.deps.json
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/bin/Debug/net7.0/Project_Code_Cat.runtimeconfig.json
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/bin/Debug/net7.0/Project_Code_Cat.dll
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/bin/Debug/net7.0/Project_Code_Cat.pdb
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/obj/Debug/net7.0/Project_Code_Cat.csproj.AssemblyReference.cache
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/obj/Debug/net7.0/Project_Code_Cat.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/obj/Debug/net7.0/Project_Code_Cat.AssemblyInfoInputs.cache
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/obj/Debug/net7.0/Project_Code_Cat.AssemblyInfo.cs
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/obj/Debug/net7.0/Project_Code_Cat.csproj.CoreCompileInputs.cache
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/obj/Debug/net7.0/Project_Code_Cat.dll
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/obj/Debug/net7.0/refint/Project_Code_Cat.dll
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/obj/Debug/net7.0/Project_Code_Cat.pdb
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/obj/Debug/net7.0/Project_Code_Cat.genruntimeconfig.cache
+/Users/vitaly/Documents/VS Code/Project_Code_Cat/Project_Code_Cat/obj/Debug/net7.0/ref/Project_Code_Cat.dll
