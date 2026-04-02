@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "se4ACTQTQ2WQ+4/85d6oWyC0msbrQwOruEfqTOlyL5Q=",
+  "Source": "ExpenseTrackerBot",
+  "BasePath": "_content/ExpenseTrackerBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
