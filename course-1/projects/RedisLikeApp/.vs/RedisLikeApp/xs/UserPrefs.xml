@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{E399D4AC-D51F-4634-9531-A26764FF203A}|http">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.RedisLikeApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RedisLikeApp/Program.cs">
+    <Files>
+      <File FileName="RedisLikeApp/Controllers/CacheController.cs" Line="25" Column="33" />
+      <File FileName="RedisLikeApp/Models/CacheSetRequest.cs" Line="7" Column="23" />
+      <File FileName="RedisLikeApp/Models/CacheEntry.cs" Line="13" Column="1" />
+      <File FileName="RedisLikeApp/Program.cs" Line="11" Column="38" />
+      <File FileName="RedisLikeApp/Models/CacheStats.cs" Line="1" Column="1" />
+      <File FileName="RedisLikeApp/Services/CacheStorage.cs" Line="86" Column="94" />
+      <File FileName="RedisLikeApp/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RedisLikeApp" expanded="True">
+            <Node name="RedisLikeApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
