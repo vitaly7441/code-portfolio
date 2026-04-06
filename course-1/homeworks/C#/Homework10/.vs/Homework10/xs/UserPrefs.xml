@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{1E31D2F0-B6CF-42F3-991D-BCC17C26463E}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Homework10/Controllers/WordsController.cs">
+    <Files>
+      <File FileName="Homework10/Controllers/WordsController.cs" Line="11" Column="16" />
+      <File FileName="Homework10/Program.cs" Line="7" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Homework10" expanded="True">
+            <Node name="Homework10" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="WordsController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Homework10 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
