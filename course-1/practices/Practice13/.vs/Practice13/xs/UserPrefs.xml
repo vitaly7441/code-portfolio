@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{D174DFF6-8689-47E6-A64A-82CC725A1B5D}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Practice13/Book.cs">
+    <Files>
+      <File FileName="Practice13/Program.cs" />
+      <File FileName="Practice13/Book.cs" Line="14" Column="1" />
+      <File FileName="Practice13/BorrowRecord.cs" />
+      <File FileName="Practice13/Reader.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Practice13" expanded="True">
+            <Node name="Practice13" expanded="True">
+              <Node name="Exceptions" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Book.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Practice13 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

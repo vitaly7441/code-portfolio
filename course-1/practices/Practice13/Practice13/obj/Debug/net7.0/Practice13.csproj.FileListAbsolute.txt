@@ -1,0 +1,15 @@
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/bin/Debug/net7.0/Practice13
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/bin/Debug/net7.0/Practice13.deps.json
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/bin/Debug/net7.0/Practice13.runtimeconfig.json
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/bin/Debug/net7.0/Practice13.dll
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/bin/Debug/net7.0/Practice13.pdb
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/obj/Debug/net7.0/Practice13.csproj.AssemblyReference.cache
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/obj/Debug/net7.0/Practice13.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/obj/Debug/net7.0/Practice13.AssemblyInfoInputs.cache
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/obj/Debug/net7.0/Practice13.AssemblyInfo.cs
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/obj/Debug/net7.0/Practice13.csproj.CoreCompileInputs.cache
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/obj/Debug/net7.0/Practice13.dll
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/obj/Debug/net7.0/refint/Practice13.dll
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/obj/Debug/net7.0/Practice13.pdb
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/obj/Debug/net7.0/Practice13.genruntimeconfig.cache
+/Users/vitaly/Documents/VS Code/Practice13/Practice13/obj/Debug/net7.0/ref/Practice13.dll
