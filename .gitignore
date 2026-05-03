@@ -9,4 +9,6 @@
 .env.development.local
 .env.test.local
 .env.production.local
-/course-1/projects/tg_bot_code_model/appsettings.json
+
+# Файлы конфигурации с секретами
+appsettings*.json
