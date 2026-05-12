@@ -1,0 +1,118 @@
+2026-05-11 19:43:19.653 +03:00 [INF] Now listening on: http://localhost:5000
+2026-05-11 19:43:19.686 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-11 19:43:19.687 +03:00 [INF] Hosting environment: Development
+2026-05-11 19:43:19.687 +03:00 [INF] Content root path: /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model
+2026-05-11 19:52:08.615 +03:00 [INF] Request starting HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 411
+2026-05-11 19:52:08.642 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-11 19:52:08.645 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:08.662 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-11 19:52:08.733 +03:00 [INF] Получено сообщение от чата 6153102991: /start
+2026-05-11 19:52:08.734 +03:00 [INF] Выполняется команда /start
+2026-05-11 19:52:08.735 +03:00 [INF] Команда /start выполнена для чата 6153102991
+2026-05-11 19:52:12.694 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-11 19:52:12.696 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 4032.5922ms
+2026-05-11 19:52:12.696 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:12.698 +03:00 [INF] Request finished HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 411 - 200 0 - 4085.8756ms
+2026-05-11 19:52:13.090 +03:00 [INF] Request starting HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 411
+2026-05-11 19:52:13.092 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:13.093 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-11 19:52:13.095 +03:00 [INF] Получено сообщение от чата 6153102991: /start
+2026-05-11 19:52:13.096 +03:00 [INF] Выполняется команда /start
+2026-05-11 19:52:13.096 +03:00 [INF] Команда /start выполнена для чата 6153102991
+2026-05-11 19:52:13.358 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-11 19:52:13.358 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 265.3897ms
+2026-05-11 19:52:13.358 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:13.359 +03:00 [INF] Request finished HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 411 - 200 0 - 268.8465ms
+2026-05-11 19:52:13.586 +03:00 [INF] Request starting HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 410
+2026-05-11 19:52:13.590 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:13.590 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-11 19:52:13.591 +03:00 [INF] Получено сообщение от чата 6153102991: /joke
+2026-05-11 19:52:13.592 +03:00 [INF] Выполняется команда /joke
+2026-05-11 19:52:13.594 +03:00 [INF] Команда /joke выполнена для чата 6153102991
+2026-05-11 19:52:13.595 +03:00 [INF] Загрузка истории для чата 6153102991
+2026-05-11 19:52:13.599 +03:00 [INF] Отправка запроса к модели gpt-3.5-turbo
+2026-05-11 19:52:13.606 +03:00 [INF] Start processing HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-11 19:52:13.612 +03:00 [INF] Sending HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-11 19:52:20.587 +03:00 [INF] Received HTTP response headers after 6971.41ms - 200
+2026-05-11 19:52:20.590 +03:00 [INF] End processing HTTP request after 6989.4541ms - 200
+2026-05-11 19:52:21.073 +03:00 [INF] Получен ответ от API Как называется крыса, которая стала супергероем?
+- Супер-мышь!
+2026-05-11 19:52:21.368 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-11 19:52:21.368 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 7778.1034ms
+2026-05-11 19:52:21.368 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:21.368 +03:00 [INF] Request finished HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 410 - 200 0 - 7782.6037ms
+2026-05-11 19:52:42.190 +03:00 [INF] Request starting HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 410
+2026-05-11 19:52:42.192 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:42.192 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-11 19:52:42.194 +03:00 [INF] Получено сообщение от чата 6153102991: /joke
+2026-05-11 19:52:42.194 +03:00 [INF] Выполняется команда /joke
+2026-05-11 19:52:42.194 +03:00 [INF] Команда /joke выполнена для чата 6153102991
+2026-05-11 19:52:42.194 +03:00 [INF] Загрузка истории для чата 6153102991
+2026-05-11 19:52:42.194 +03:00 [INF] Отправка запроса к модели gpt-3.5-turbo
+2026-05-11 19:52:42.195 +03:00 [INF] Start processing HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-11 19:52:42.195 +03:00 [INF] Sending HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-11 19:52:42.907 +03:00 [INF] Received HTTP response headers after 711.6206ms - 200
+2026-05-11 19:52:42.908 +03:00 [INF] End processing HTTP request after 712.6909ms - 200
+2026-05-11 19:52:43.654 +03:00 [INF] Получен ответ от API Почему батарейки не живут долго в армии?
+
+Потому что их всегда вырубают!
+2026-05-11 19:52:43.956 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-11 19:52:43.957 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 1764.176ms
+2026-05-11 19:52:43.958 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:43.958 +03:00 [INF] Request finished HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 410 - 200 0 - 1767.9662ms
+2026-05-11 19:52:48.380 +03:00 [INF] Request starting HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 411
+2026-05-11 19:52:48.380 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:48.381 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-11 19:52:48.381 +03:00 [INF] Получено сообщение от чата 6153102991: /start
+2026-05-11 19:52:48.381 +03:00 [INF] Выполняется команда /start
+2026-05-11 19:52:48.382 +03:00 [INF] Команда /start выполнена для чата 6153102991
+2026-05-11 19:52:48.696 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-11 19:52:48.696 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 315.0604ms
+2026-05-11 19:52:48.696 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:48.696 +03:00 [INF] Request finished HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 411 - 200 0 - 316.3559ms
+2026-05-11 19:52:51.418 +03:00 [INF] Request starting HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 410
+2026-05-11 19:52:51.418 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:51.419 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-11 19:52:51.419 +03:00 [INF] Получено сообщение от чата 6153102991: /joke
+2026-05-11 19:52:51.420 +03:00 [INF] Выполняется команда /joke
+2026-05-11 19:52:51.420 +03:00 [INF] Команда /joke выполнена для чата 6153102991
+2026-05-11 19:52:51.420 +03:00 [INF] Загрузка истории для чата 6153102991
+2026-05-11 19:52:51.420 +03:00 [INF] Отправка запроса к модели gpt-3.5-turbo
+2026-05-11 19:52:51.420 +03:00 [INF] Start processing HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-11 19:52:51.420 +03:00 [INF] Sending HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-11 19:52:52.008 +03:00 [INF] Received HTTP response headers after 587.4893ms - 200
+2026-05-11 19:52:52.009 +03:00 [INF] End processing HTTP request after 588.4223ms - 200
+2026-05-11 19:52:53.721 +03:00 [INF] Получен ответ от API Конечно, вот одна из классических:
+
+— Почему куры не умеют играть в футбол?
+— Потому что все время штрафует их петушок!
+2026-05-11 19:52:53.995 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-11 19:52:53.995 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 2576.3067ms
+2026-05-11 19:52:53.995 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:52:53.996 +03:00 [INF] Request finished HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 410 - 200 0 - 2577.6527ms
+2026-05-11 19:54:19.573 +03:00 [INF] Application is shutting down...
+2026-05-11 19:54:28.803 +03:00 [INF] Now listening on: http://localhost:5000
+2026-05-11 19:54:28.829 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-11 19:54:28.829 +03:00 [INF] Hosting environment: Development
+2026-05-11 19:54:28.829 +03:00 [INF] Content root path: /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model
+2026-05-11 19:54:31.287 +03:00 [INF] Request starting HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 410
+2026-05-11 19:54:31.308 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-11 19:54:31.310 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:54:31.324 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-11 19:54:31.386 +03:00 [INF] Получено сообщение от чата 6153102991: /joke
+2026-05-11 19:54:31.387 +03:00 [INF] Выполняется команда /joke
+2026-05-11 19:54:31.388 +03:00 [INF] Команда /joke выполнена для чата 6153102991
+2026-05-11 19:54:31.388 +03:00 [INF] Загрузка истории для чата 6153102991
+2026-05-11 19:54:31.391 +03:00 [INF] Отправка запроса к модели gpt-3.5-turbo
+2026-05-11 19:54:31.394 +03:00 [INF] Start processing HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-11 19:54:31.395 +03:00 [INF] Sending HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-11 19:54:33.631 +03:00 [INF] Received HTTP response headers after 2231.7333ms - 200
+2026-05-11 19:54:33.634 +03:00 [INF] End processing HTTP request after 2241.956ms - 200
+2026-05-11 19:54:35.167 +03:00 [INF] Получен ответ от API Почему программисты не любят играть в hide and seek?
+
+Потому что никто не знает, где они в итоге спрятались – в коде или в дебаггере!
+2026-05-11 19:54:41.598 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-11 19:54:41.600 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 10274.9515ms
+2026-05-11 19:54:41.601 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-11 19:54:41.603 +03:00 [INF] Request finished HTTP/1.1 POST http://8970-45-149-147-36.ngrok-free.app/api/Update application/json 410 - 200 0 - 10318.3751ms
+2026-05-11 19:54:59.027 +03:00 [INF] Application is shutting down...

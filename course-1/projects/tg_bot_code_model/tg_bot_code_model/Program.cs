@@ -28,6 +28,7 @@ builder.Services.AddSingleton<IBotCommand, StatsCommand>();
 builder.Services.AddSingleton<IBotCommand, ClearCommand>();
 builder.Services.AddSingleton<IBotCommand, UndoCommand>();
 builder.Services.AddSingleton<IBotCommand, SummarizeCommand>();
+builder.Services.AddSingleton<IBotCommand, JokeCommand>();
 builder.Services.AddHttpClient<IChatApiClient, HttpChatApiClient>();
 builder.Services.AddSingleton<IChatModelRepository, ChatModelRepository>();
 builder.Services.Configure<ChatApiSettings>(

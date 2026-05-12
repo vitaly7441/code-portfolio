@@ -1,0 +1,249 @@
+2026-05-10 17:21:39.854 +03:00 [INF] Now listening on: http://localhost:5000
+2026-05-10 17:21:39.880 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-10 17:21:39.880 +03:00 [INF] Hosting environment: Development
+2026-05-10 17:21:39.880 +03:00 [INF] Content root path: /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model
+2026-05-10 17:22:36.827 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411
+2026-05-10 17:22:36.862 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-10 17:22:36.865 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:22:36.882 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:22:36.954 +03:00 [INF] Получено сообщение от чата 6153102991: /start
+2026-05-10 17:22:36.956 +03:00 [INF] Выполняется команда /start
+2026-05-10 17:22:36.957 +03:00 [INF] Команда /start выполнена для чата 6153102991
+2026-05-10 17:22:38.734 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-10 17:22:38.736 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 1852.6612ms
+2026-05-10 17:22:38.737 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:22:38.739 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411 - 200 0 - 1914.9394ms
+2026-05-10 17:22:44.629 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 410
+2026-05-10 17:22:44.631 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:22:44.632 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:22:44.635 +03:00 [INF] Получено сообщение от чата 6153102991: /joke
+2026-05-10 17:22:44.636 +03:00 [INF] Выполняется команда /joke
+2026-05-10 17:22:44.638 +03:00 [INF] Команда /joke выполнена для чата 6153102991
+2026-05-10 17:22:44.640 +03:00 [INF] Загрузка истории для чата 6153102991
+2026-05-10 17:22:44.644 +03:00 [INF] Отправка запроса к модели gpt-3.5-turbo
+2026-05-10 17:22:44.651 +03:00 [INF] Start processing HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-10 17:22:44.652 +03:00 [INF] Sending HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-10 17:22:53.441 +03:00 [INF] Received HTTP response headers after 8784.3378ms - 400
+2026-05-10 17:22:53.443 +03:00 [INF] End processing HTTP request after 8797.0007ms - 400
+2026-05-10 17:22:53.449 +03:00 [ERR] Ошибка при попытке генерации шутки для чата 6153102991
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at tg_bot_code_model.Implementations.HttpChatApiClient.SendMessageAsync(String userMessage, IEnumerable`1 history) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Implementations/HttpChatApiClient.cs:line 38
+   at tg_bot_code_model.Commands.JokeCommand.ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, Int64 chatId) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Commands/JokeCommand.cs:line 34
+2026-05-10 17:22:53.940 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-10 17:22:53.940 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 9308.074ms
+2026-05-10 17:22:53.941 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:22:53.941 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 410 - 200 0 - 9312.6750ms
+2026-05-10 17:22:54.174 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411
+2026-05-10 17:22:54.178 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:22:54.178 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:22:54.179 +03:00 [INF] Получено сообщение от чата 6153102991: /start
+2026-05-10 17:22:54.179 +03:00 [INF] Выполняется команда /start
+2026-05-10 17:22:54.179 +03:00 [INF] Команда /start выполнена для чата 6153102991
+2026-05-10 17:22:55.121 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-10 17:22:55.122 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 943.123ms
+2026-05-10 17:22:55.122 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:22:55.122 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411 - 200 0 - 948.2015ms
+2026-05-10 17:22:58.573 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411
+2026-05-10 17:22:58.574 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:22:58.574 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:22:58.575 +03:00 [INF] Получено сообщение от чата 6153102991: /start
+2026-05-10 17:22:58.575 +03:00 [INF] Выполняется команда /start
+2026-05-10 17:22:58.575 +03:00 [INF] Команда /start выполнена для чата 6153102991
+2026-05-10 17:22:59.536 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-10 17:22:59.536 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 962.255ms
+2026-05-10 17:22:59.537 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:22:59.537 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411 - 200 0 - 963.9188ms
+2026-05-10 17:23:03.476 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 410
+2026-05-10 17:23:03.477 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:23:03.477 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:23:03.478 +03:00 [INF] Получено сообщение от чата 6153102991: /joke
+2026-05-10 17:23:03.478 +03:00 [INF] Выполняется команда /joke
+2026-05-10 17:23:03.478 +03:00 [INF] Команда /joke выполнена для чата 6153102991
+2026-05-10 17:23:03.478 +03:00 [INF] Загрузка истории для чата 6153102991
+2026-05-10 17:23:03.479 +03:00 [INF] Отправка запроса к модели gpt-3.5-turbo
+2026-05-10 17:23:03.479 +03:00 [INF] Start processing HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-10 17:23:03.479 +03:00 [INF] Sending HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-10 17:23:04.600 +03:00 [INF] Received HTTP response headers after 1120.4357ms - 400
+2026-05-10 17:23:04.600 +03:00 [INF] End processing HTTP request after 1121.2128ms - 400
+2026-05-10 17:23:04.601 +03:00 [ERR] Ошибка при попытке генерации шутки для чата 6153102991
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at tg_bot_code_model.Implementations.HttpChatApiClient.SendMessageAsync(String userMessage, IEnumerable`1 history) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Implementations/HttpChatApiClient.cs:line 38
+   at tg_bot_code_model.Commands.JokeCommand.ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, Int64 chatId) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Commands/JokeCommand.cs:line 34
+2026-05-10 17:23:07.297 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-10 17:23:07.298 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 3820.1493ms
+2026-05-10 17:23:07.298 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:23:07.298 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 410 - 200 0 - 3821.7056ms
+2026-05-10 17:23:07.935 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411
+2026-05-10 17:23:07.935 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:23:07.936 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:23:07.936 +03:00 [INF] Получено сообщение от чата 6153102991: /start
+2026-05-10 17:23:07.937 +03:00 [INF] Выполняется команда /start
+2026-05-10 17:23:07.937 +03:00 [INF] Команда /start выполнена для чата 6153102991
+2026-05-10 17:23:08.494 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-10 17:23:08.494 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 558.4921ms
+2026-05-10 17:23:08.494 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:23:08.495 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411 - 200 0 - 559.8597ms
+2026-05-10 17:23:10.306 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 410
+2026-05-10 17:23:10.306 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:23:10.307 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:23:10.307 +03:00 [INF] Получено сообщение от чата 6153102991: /joke
+2026-05-10 17:23:10.307 +03:00 [INF] Выполняется команда /joke
+2026-05-10 17:23:10.308 +03:00 [INF] Команда /joke выполнена для чата 6153102991
+2026-05-10 17:23:10.308 +03:00 [INF] Загрузка истории для чата 6153102991
+2026-05-10 17:23:10.308 +03:00 [INF] Отправка запроса к модели gpt-3.5-turbo
+2026-05-10 17:23:10.308 +03:00 [INF] Start processing HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-10 17:23:10.308 +03:00 [INF] Sending HTTP request POST https://openrouter.ai/api/v1/chat/completions
+2026-05-10 17:23:10.930 +03:00 [INF] Received HTTP response headers after 621.9435ms - 400
+2026-05-10 17:23:10.931 +03:00 [INF] End processing HTTP request after 622.6393ms - 400
+2026-05-10 17:23:10.931 +03:00 [ERR] Ошибка при попытке генерации шутки для чата 6153102991
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at tg_bot_code_model.Implementations.HttpChatApiClient.SendMessageAsync(String userMessage, IEnumerable`1 history) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Implementations/HttpChatApiClient.cs:line 38
+   at tg_bot_code_model.Commands.JokeCommand.ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, Int64 chatId) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Commands/JokeCommand.cs:line 34
+2026-05-10 17:23:11.840 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-10 17:23:11.840 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 1533.1745ms
+2026-05-10 17:23:11.840 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:23:11.841 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 410 - 200 0 - 1534.5070ms
+2026-05-10 17:26:05.029 +03:00 [INF] Application is shutting down...
+2026-05-10 17:26:10.193 +03:00 [INF] Now listening on: http://localhost:5000
+2026-05-10 17:26:10.219 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-10 17:26:10.219 +03:00 [INF] Hosting environment: Development
+2026-05-10 17:26:10.219 +03:00 [INF] Content root path: /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model
+2026-05-10 17:26:12.813 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411
+2026-05-10 17:26:12.827 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-10 17:26:12.828 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:26:12.839 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:26:12.897 +03:00 [INF] Получено сообщение от чата 6153102991: /start
+2026-05-10 17:26:12.899 +03:00 [INF] Выполняется команда /start
+2026-05-10 17:26:12.899 +03:00 [INF] Команда /start выполнена для чата 6153102991
+2026-05-10 17:26:18.421 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-10 17:26:18.423 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 5582.4929ms
+2026-05-10 17:26:18.423 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:26:18.426 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411 - 200 0 - 5613.5268ms
+2026-05-10 17:26:21.871 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 410
+2026-05-10 17:26:21.873 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:26:21.873 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:26:21.876 +03:00 [INF] Получено сообщение от чата 6153102991: /joke
+2026-05-10 17:26:21.877 +03:00 [INF] Выполняется команда /joke
+2026-05-10 17:26:21.880 +03:00 [INF] Команда /joke выполнена для чата 6153102991
+2026-05-10 17:26:22.285 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-10 17:26:22.285 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 411.8402ms
+2026-05-10 17:26:22.286 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:26:22.287 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 410 - 200 0 - 416.1902ms
+2026-05-10 17:28:35.268 +03:00 [INF] Application is shutting down...
+2026-05-10 17:28:42.254 +03:00 [INF] Now listening on: http://localhost:5000
+2026-05-10 17:28:42.280 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-10 17:28:42.280 +03:00 [INF] Hosting environment: Development
+2026-05-10 17:28:42.281 +03:00 [INF] Content root path: /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model
+2026-05-10 17:28:47.370 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411
+2026-05-10 17:28:47.386 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-10 17:28:47.388 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:28:47.399 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:28:47.457 +03:00 [INF] Получено сообщение от чата 6153102991: /start
+2026-05-10 17:28:47.458 +03:00 [INF] Выполняется команда /start
+2026-05-10 17:28:47.458 +03:00 [INF] Команда /start выполнена для чата 6153102991
+2026-05-10 17:29:47.285 +03:00 [INF] Request starting HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411
+2026-05-10 17:29:47.287 +03:00 [INF] Executing endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:29:47.288 +03:00 [INF] Route matched with {action = "Post", controller = "Update"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(tg_bot_code_model.Dtos.TelegramUpdate) on controller tg_bot_code_model.Controllers.UpdateController (tg_bot_code_model).
+2026-05-10 17:29:47.291 +03:00 [INF] Получено сообщение от чата 6153102991: /start
+2026-05-10 17:29:47.291 +03:00 [INF] Выполняется команда /start
+2026-05-10 17:29:47.291 +03:00 [INF] Команда /start выполнена для чата 6153102991
+2026-05-10 17:30:09.790 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 82382.7412ms
+2026-05-10 17:30:09.794 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:30:09.802 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Telegram.Bot.Exceptions.RequestException: Bot API Service Failure: HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Telegram.Bot.TelegramBotClient.SendRequest[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Telegram.Bot.TelegramBotClient.SendRequest[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Telegram.Bot.TelegramBotClientExtensions.SendMessage(ITelegramBotClient botClient, ChatId chatId, String text, ParseMode parseMode, ReplyParameters replyParameters, ReplyMarkup replyMarkup, LinkPreviewOptions linkPreviewOptions, Nullable`1 messageThreadId, IEnumerable`1 entities, Boolean disableNotification, Boolean protectContent, String messageEffectId, String businessConnectionId, Boolean allowPaidBroadcast, Nullable`1 directMessagesTopicId, SuggestedPostParameters suggestedPostParameters, CancellationToken cancellationToken)
+   at tg_bot_code_model.Commands.StartCommand.ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, Int64 chatId) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Commands/StartCommand.cs:line 20
+   at tg_bot_code_model.Commands.TelegramUpdateProcessor.HandleAsync(TelegramUpdate update) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Commands/TelegramUpdateProcessor.cs:line 49
+   at tg_bot_code_model.Controllers.UpdateController.Post(TelegramUpdate update) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Controllers/UpdateController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-10 17:30:09.834 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411 - 500 - text/plain;+charset=utf-8 82464.0813ms
+2026-05-10 17:31:09.330 +03:00 [INF] Executed action tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model) in 82038.9757ms
+2026-05-10 17:31:09.332 +03:00 [INF] Executed endpoint 'tg_bot_code_model.Controllers.UpdateController.Post (tg_bot_code_model)'
+2026-05-10 17:31:09.334 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Telegram.Bot.Exceptions.RequestException: Bot API Service Failure: HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Telegram.Bot.TelegramBotClient.SendRequest[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Telegram.Bot.TelegramBotClient.SendRequest[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Telegram.Bot.TelegramBotClientExtensions.SendMessage(ITelegramBotClient botClient, ChatId chatId, String text, ParseMode parseMode, ReplyParameters replyParameters, ReplyMarkup replyMarkup, LinkPreviewOptions linkPreviewOptions, Nullable`1 messageThreadId, IEnumerable`1 entities, Boolean disableNotification, Boolean protectContent, String messageEffectId, String businessConnectionId, Boolean allowPaidBroadcast, Nullable`1 directMessagesTopicId, SuggestedPostParameters suggestedPostParameters, CancellationToken cancellationToken)
+   at tg_bot_code_model.Commands.StartCommand.ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, Int64 chatId) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Commands/StartCommand.cs:line 20
+   at tg_bot_code_model.Commands.TelegramUpdateProcessor.HandleAsync(TelegramUpdate update) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Commands/TelegramUpdateProcessor.cs:line 49
+   at tg_bot_code_model.Controllers.UpdateController.Post(TelegramUpdate update) in /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model/Controllers/UpdateController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-10 17:31:09.359 +03:00 [INF] Request finished HTTP/1.1 POST http://d70c-45-149-147-141.ngrok-free.app/api/Update application/json 411 - 500 - text/plain;+charset=utf-8 82072.3602ms
+2026-05-10 18:20:34.433 +03:00 [INF] Application is shutting down...
+2026-05-10 18:20:41.213 +03:00 [INF] Now listening on: http://localhost:5000
+2026-05-10 18:20:41.239 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-10 18:20:41.239 +03:00 [INF] Hosting environment: Development
+2026-05-10 18:20:41.239 +03:00 [INF] Content root path: /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model
+2026-05-10 20:29:51.992 +03:00 [INF] Application is shutting down...
+2026-05-10 20:39:54.502 +03:00 [INF] Now listening on: http://localhost:5000
+2026-05-10 20:39:54.528 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-10 20:39:54.528 +03:00 [INF] Hosting environment: Development
+2026-05-10 20:39:54.528 +03:00 [INF] Content root path: /Users/vitaly/Documents/VS Code/tg_bot_code_model/tg_bot_code_model
+2026-05-10 20:49:14.876 +03:00 [INF] Application is shutting down...

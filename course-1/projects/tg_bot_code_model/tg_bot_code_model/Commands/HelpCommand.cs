@@ -19,11 +19,12 @@ namespace tg_bot_code_model.Commands
             _logger.LogInformation("Команда /help выполнена для чата {ChatId}", chatId);
             var message = "Список доступных команд\n\n" +
                           "/start -- начало работы\n" +
-                          "/help -- показать этот список\n" +
+                          "/help -- отобразить все доступные команды\n" +
                           "/stats -- статистика чата (сообщения, токены)\n" +
                           "/clear -- очистить историю переписки\n" +
                           "/summarize -- краткий пересказ диалога\n" +
-                          "/undo -- удалить последнее сообщение";
+                          "/undo -- удалить последнее сообщение \n"+
+                          "/joke -- сгенерировать шутку";
             await bot.SendMessage(chatId, message);
         }
 
