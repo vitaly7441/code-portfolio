@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Practice4_Controllers.props" />
+</Project>
