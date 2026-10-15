@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{2BA43757-4141-4F37-86C5-D41779C2275E}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Practice5_TestingPlatform/Models/Question.cs">
+    <Files>
+      <File FileName="Practice5_TestingPlatform/Models/Question.cs" Line="55" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Practice5_TestingPlatform" expanded="True">
+            <Node name="Practice5_TestingPlatform" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Enums" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Practice5__TestingPlatform PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
