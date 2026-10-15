@@ -10,5 +10,21 @@
 .env.test.local
 .env.production.local
 
-# Файлы конфигурации с секретами
+# Konf
 appsettings*.json
+
+# DB
+*.db
+*.db-shm
+*.db-wal
+
+# bin
+bin/
+obj/
+
+# Sec
+appsettings.Development.json
+
+# Сборка
+[Dd]ebug/
+[Rr]elease/
