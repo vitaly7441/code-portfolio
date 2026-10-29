@@ -11,7 +11,7 @@
 .env.production.local
 
 # Konf
-appsettings*.json
+#appsettings*.json
 
 # DB
 *.db
@@ -23,8 +23,10 @@ bin/
 obj/
 
 # Sec
-appsettings.Development.json
+#appsettings.Development.json
 
 # Сборка
 [Dd]ebug/
 [Rr]elease/
+
+.vs/
