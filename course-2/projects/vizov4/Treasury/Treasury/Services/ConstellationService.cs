@@ -20,6 +20,17 @@ namespace Treasury.Services
 
             for (int i = 0; i < request.Damaged.Length; i++)
             {
+                for (int j = i + 1; j < request.Damaged.Length; j++)
+                {
+                    if (request.Damaged[i] == request.Damaged[j])
+                    {
+                        throw new ArgumentException("Повреждённый код не должен содержать повторяющихся символов.");
+                    }
+                }
+            }
+
+            for (int i = 0; i < request.Damaged.Length; i++)
+            {
                 char dmgChar = request.Damaged[i];
                 bool existsInReference = false;
 
